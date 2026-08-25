@@ -1,0 +1,42 @@
+.Table{
+    display: grid;
+    width: 900px;
+    margin:50px auto ;
+    grid-template-columns: 100px 150px 150px 120px 180px;
+    color: green;
+}
+
+.Table div{
+    border:1px solid blue;
+    padding: 15px;
+    text-align: center;
+    display: grid;
+}
+
+.header{
+    font-weight: bold;
+    background-color: gray;
+    color:red;
+}
+
+/* .subheder{
+    font-weight: bold;
+    background-color: lightgreen; 
+
+} */
+
+.Slno{
+    background-color: black;
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    grid-column: span 2;
+}
+
+.address{
+    grid-column: span 2;
+}
