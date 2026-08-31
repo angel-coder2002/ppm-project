@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Product Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                TechStore
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to TechStore</h1>
+
+            <p class="lead">
+                Find the best technology products at affordable prices.
+            </p>
+
+            <a href="#products" class="btn btn-light btn-lg">
+                View Products
+            </a>
+        </div>
+    </header>
+
+    <!-- Product section -->
+    <main class="container py-5" id="products">
+        <h2 class="text-center mb-4">
+            Featured Products
+        </h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Laptop">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop</h5>
+
+                        <p class="card-text">
+                            Powerful laptop for programming and office work.
+                        </p>
+
+                        <p class="fw-bold text-primary">
+                            ₹75,000
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Headphones">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Headphones</h5>
+
+                        <p class="card-text">
+                            Comfortable wireless headphones with clear sound.
+                        </p>
+
+                        <p class="fw-bold text-primary">
+                            ₹4,999
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Keyboard">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Keyboard</h5>
+
+                        <p class="card-text">
+                            Mechanical keyboard designed for developers.
+                        </p>
+
+                        <p class="fw-bold text-primary">
+                            ₹2,499
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">
+            © 2026 TechStore. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
