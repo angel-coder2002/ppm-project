@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>garage</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css"
+        integrity="sha512-vWHsp0PuTxwRMLtGTnbS7PDNtI7yFmmiFq24hjcqpup/KK7ixxWdXwRmerG9gu7peaSRIVxpFcfBSVrGzWcF4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header class="grg-header">
+        <div class="container-fluid p-0">
+            <!-- action bar -->
+            <div class="grg-top-action-bar px-5 d-flex justify-content-between align-items-center py-2">
+                <div class="grg-social-left">
+                    <i class="bi bi-facebook grg-icon"></i>
+                    <i class="bi bi-youtube grg-icon"></i>
+                    <i class="bi bi-instagram grg-icon"></i>
+                    <i class="bi bi-whatsapp grg-icon"></i>
+                </div>
+                <div class="grg-list-rit">
+                    <span class="small ms-3 text-white"><i class="bi bi-geo-alt-fill"></i> 3766 Alton Pkwy, Irvine CA
+                        92618
+                        USA</span>
+                    <span class="small ms-3 text-white"><i class="bi bi-telephone"></i> +00 123 456 789</span>
+                    <span class="small ms-3 text-white"> <i class="bi bi-alarm"></i> Mon-Sat: 8:00am-6:30pmSun:
+                        Closed</span>
+                </div>
+            </div>
+            <!-- nav bar -->
+            <div class="grg-top-nav px-5">
+                <nav class="navbar navbar-expand-lg ">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/logo.png" alt="this is a logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-5" role="search">
+                            <input class="form-control rounded-0 " type="search" placeholder="Search"
+                                aria-label="Search" />
+                            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                        </form>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero Serction -->
+    <div class="grg-hero-sec">
+        <div class="container-fluid p-0">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner grg-slider-wraper">
+                    <div class="carousel-item active">
+                        <img src="../img/grg1.jpeg" class="d-block w-100" alt="...">
+
+
+                        <div class=" d-md-block hero-contant">
+                            <h1>Second slide label</h1>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/grg1.jpeg" class="d-block w-100" alt="...">
+
+                        <div class=" d-md-block hero-contant">
+                            <h1>Second slide label</h1>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- call to action -->
+    <div class="grg-call-to-action py-5" style="background: #DF1F3D;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-lg-6 col-12">
+                    <h2 class="text-uppercase text-white">Ready to Get Started?</h2>
+                    <p class="text-white">Sign up for our newsletter and receive the latest updates and offers.</p>
+                </div>
+                <div class="col-lg-6 col-12 text-end">
+                    <a href="#" class="btn btn-outline-light rounded-0 px-5 py-3">Get Started</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div class="grg-about-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="grg-title-bx mb-5">
+                        <h2>WHO WE ARE</h2>
+                        <div class="line"></div>
+                    </div>
+                    <img src="../img/about-left.png" alt="this is the about us image " class="img-fluid mb-4"
+                        height="400px" width="100%">
+                    <p>Lorem ipsum dolor sit amet, falli tollit cetero te eos. Ea ullum liber aperiri mi, impetus ate
+                        philosophia ad duo, quem regione ne ius. Vis quis lobortis dissentias ex, in du aft philosophia,
+                        malis necessitatibus no mei.</p>
+
+                    <a href="#" class="btn btn-outline-dark text-dark rounded-0 px-5 py-2 mt-4">Get Started</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="grg-title-bx mb-5">
+                        <h2>WHO WE ARE</h2>
+                        <div class="line"></div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur elit. Ad assumenda fuga illo laudantium magni sed
+                        temporibus. Amet atque aut autem consectetur consequuntur dolorum enim error hic inventore
+                        molestiae nisi nostrum. Volumus sensibus qui ex, eum duis doming ad. Modo liberavisse eu mel, no
+                        viris prompta sit. Amet atque aut autem consectetur consequuntur dolorum.</p>
+                    <div class="row mt-5 grg-abut-ibx">
+                        <div
+                            class="col-lg-6 col-md-12 col-12 grg-abut-ibx-item d-flex align-items-center justify-content-start mb-5 gap-4 ">
+                            <img src="../img/flat-icon.png" alt="this is the about us right icon image " class="img-fluid">
+                            <div class="grg-abut-ibx-item-content">
+                                <h5>Engine overhaul</h5>
+                                <p>It is a long established.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-12 col-12 grg-abut-ibx-item d-flex align-items-center justify-content-end mb-5 gap-4">
+                            <img src="../img/flat-icon.png" alt="this is the about us right icon image " class="img-fluid">
+                            <div class="grg-abut-ibx-item-content">
+                                <h5>Engine overhaul</h5>
+                                <p>It is a long established.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-12 col-12 grg-abut-ibx-item d-flex align-items-center justify-content-start mb-5 gap-4 ">
+                            <img src="../img/flat-icon.png" alt="this is the about us right icon image " class="img-fluid">
+                            <div class="grg-abut-ibx-item-content">
+                                <h5>Engine overhaul</h5>
+                                <p>It is a long established.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-12 col-12 grg-abut-ibx-item d-flex align-items-center justify-content-end mb-5 gap-4 ">
+                            <img src="../img/flat-icon.png" alt="this is the about us right icon image " class="img-fluid">
+                            <div class="grg-abut-ibx-item-content">
+                                <h5>Engine overhaul</h5>
+                                <p>It is a long established.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-12 col-12 grg-abut-ibx-item d-flex align-items-center justify-content-start mb-5 gap-4">
+                            <img src="../img/flat-icon.png" alt="this is the about us right icon image " class="img-fluid">
+                            <div class="grg-abut-ibx-item-content">
+                                <h5>Engine overhaul</h5>
+                                <p>It is a long established.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-12 col-12 grg-abut-ibx-item d-flex align-items-center justify-content-end mb-5 gap-4">
+                            <img src="../img/flat-icon.png" alt="this is the about us right icon image " class="img-fluid">
+                            <div class="grg-abut-ibx-item-content">
+                                <h5>Engine overhaul</h5>
+                                <p>It is a long established.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Post -->
+    <section class="recent-post py-5">
+        <div class="cotainer-fluid px-5">
+            <!-- header -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="section-title">RECENT POSTS</h2>
+                <div class="title-line"></div>
+            </div>
+
+            <!-- Posts -->
+            <div class="row g-4">
+                <!-- Post 1 -->
+                <div class="col-lg-5 col-md-6">
+
+                    <img src="../img/Honda.jpg" class="img-fluid w-100" style="height: 300px; object-fit: cover;">
+
+                    <h5 class="mt-4 text-dark">
+                        2015 BMW M3 vs.2015 Mercedes-AMG
+                    </h5>
+
+                    <p class="text-secodary">
+                        It is a long established fact that a reader will be distracted the reable content.
+                    </p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-secondary">Sep 22,1015</small>
+                        <a href="#" class="text-danger text-decoration-none">READ MORE</a>
+                    </div>
+
+                </div>
+
+                <!-- Post 2 -->
+                <div class="col-lg-5 col-md-6">
+
+                    <img src="../img/mercedes.jpg" class="img-fluid w-100" style="height: 300px; object-fit: cover;">
+
+                    <h5 class="mt-4 text-dark">
+                        Werhousing
+                    </h5>
+
+                    <p class="post-text">
+                        Ornare nec nibh fermentumut elementum nunc, justoduis risus gravidanam quam portanam.
+                        Malesuada utnunc facilisis. Justocurabitur ipsum duis himenaeos. Ligulaetiam sapien
+                        turpisnullam. Temporinteger cursus tellus. Platea in aliquam, hendreritphasellus orcifusce
+                        tortorduis dignissim. Porttitor urnavivamus est enimnunc.
+                    </p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-secondary">Aug 25,1015</small>
+                        <a href="#" class="text-danger text-decoration-none">READ MORE</a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 col-md-6">
+
+                    <img src="../img/vehicles_images_4.jpg" class="img-fluid w-100"
+                        style="height: 300px; object-fit: cover;">
+
+                    <h5 class="mt-4 text-dark">
+                        2015 BMW X5
+                    </h5>
+
+                    <p class="post-text">
+                        Ornare nec nibh fermentumut elementum nunc, justoduis risus gravidanam quam portanam.
+                        Malesuada utnunc facilisis. Justocurabitur ipsum duis himenaeos. Ligulaetiam sapien
+                        turpisnullam. Temporinteger cursus tellus. Platea in aliquam, hendreritphasellus orcifusce
+                        tortorduis dignissim. Porttitor urnavivamus est enimnunc.
+                    </p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-secondary">Aug 25,1015</small>
+                        <a href="#" class="text-danger text-decoration-none">READ MORE</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- counter section -->
+    <section class="counter-section bg-primary">
+        <div class="container">
+            <div class="row text-center align-items-center">
+                <!-- 60 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="counter-circle">
+                        <h2>60</h2>
+                        <p class="mb=0">Offices worldwide</p>
+                    </div>
+                </div>
+
+                <!-- 50 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="counter-circle">
+                        <h2>50</h2>
+                        <p>Staff</p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="counter-circle">
+                        <h2>4</h2>
+                        <p>Countries Covered</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="counter-circle">
+                        <h2>23</h2>
+                        <p class="mb=0">Years of Experience</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- BNNER -->
+    <section class="banner mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+
+                <h1 class="banner-title">
+                    GARAGE WORDPRESS<br>
+                    THEME
+                </h1>
+
+                <a herf="#" class="purchase-btn">
+                    PURCHASE THEME
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--========== EVENT/TESTIMONIAL/GALLERY =========== -->
+    <section class="main-section">
+        <div class="container">
+            <div class="row g-5">
+
+                <!-- EVENT -->
+                <div class="col-lg-4">
+                    <h2 class="section-title">EVENTS</h2>
+                    <div class="title-line"></div>
+
+                    <!-- Event 1 -->
+                    <div class="event d-flex">
+                        <div class="date-box">
+                            <span>11</span>
+                            <small>NOV</small>
+                        </div>
+
+                        <div class="event-text">
+                            <h5>Project Transport</h5>
+                            <p>
+                                Number 1:<br>
+                                Mimorbi gravidavidus<br>
+                                justoduis amet
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Event 2 -->
+                    <div class="event d-flex">
+                        <div class="date-box">
+                            <span>20</span>
+                            <small>AUG</small>
+                        </div>
+
+                        <div class="event-text">
+                            <h5>How To Fix A Car Horn?</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet,<br>
+                                 consectetur adipiscing
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Event 3-->
+                    <div class="event d-flex">
+                        <div class="date-box">
+                            <span>20</span>
+                            <small>AUG</small>
+                        </div>
+
+                        <div class="event-text">
+                            <h5>Does Wikipedia Need a<br>
+                                Medical Disclaimer?</h5>
+                            <p>
+                                Massafusce rhoncus malesuada<br>
+                                ullamcorper nulla facilisimaecenas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TESTIMONIAL -->
+                <div class="col-lg-4">
+                    <h2 class="section-title">TESTIMONIAL</h2>
+                    <div class="title-line"></div>
+
+                    <div class="testimonial">
+                        <p>
+                           "Porta integer a fusce cras quis fuce.
+                           Semper tempuse vestibulum.Duiphasellus
+                           eupreacent rid morbi mi erat.Nascetur
+                           purus ut. Dictumst mollis fringilla nibh,
+                           nullam odiodoec suscrit conubia elit."
+                        </p>
+
+                        <div class="container-user">
+                            <img src="#" alt="user">
+
+                            <div>
+                              <h5>Sam Smith</h5>
+                              <span>Businessman</span>
+                            </div>
+                        </div>
+
+                        <div class="dots">
+                            <span class="active"></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GALLERY -->
+                <div class="col-lg-4">
+                    <h2 class="section-title">GALLERY</h2>
+                    <div class="title-line"></div>
+
+                    <div class="row g-3">
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="#" class="gallery-img">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNERS SECTION -->
+     <section class="partner-section">
+        <div class="container">
+            <div class="row text-center align-items-center">
+
+                <div class="col">
+                    <img src="../img/logo1.webp" alt="logo">
+                </div>
+
+                <div class="col">
+                    <img src="../img/logo2.webp" alt="logo">
+                </div>
+
+                <div class="col">
+                    <img src="../img/logo3.webp" alt="logo">
+                </div>
+
+                <div class="col">
+                    <img src="../img/logo4.webp" alt="logo">
+                </div>
+
+                <div class="col">
+                    <img src="../img/logo5.webp" alt="logo">
+                </div>
+  
+            </div>   
+            
+            <div class="row text-center align-items-center mt-5">
+                 
+                 <div class="col">
+                    <img src="../img/logo6.webp" alt="logo">
+                </div>
+
+                 <div class="col">
+                    <img src="../img/logo7.webp" alt="logo">
+                </div>
+
+                 <div class="col">
+                    <img src="../img/logo8.webp" alt="logo">
+                </div>
+
+                 <div class="col">
+                    <img src="../img/logo9.webp" alt="logo">
+                </div>
+
+                 <div class="col">
+                    <img src="../img/logo10.webp" alt="logo">
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- Footer Section -->
+    <footer class="grg-footer px-5 text-white pt-5">
+        <div class="container-fluid">
+            <div class="row grg-footer-top py-5 mb-5">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img src="../img/logo.png" alt="this is a logo" class="img-fluid mb-3">
+                    <ul class="list-unstyled text-white">
+                        <li>
+                            <a href="tel:000123456789" class="text-white">Call. +00123456789</a>
+                        </li>
+                        <li>
+                            <a href="mailto:Email. hello@yourmail.com" class="text-white">Email. hello@yourmail.com</a>
+                        </li>
+                        <li>
+                            <a href="mailto:Email. hello@yourmail.com" class="text-white">329 Queensberry Street, North
+                                Melbourne
+                                VIC 3051, Australia.</a>
+                        </li>
+                    </ul>
+
+                    <div class="grg-social-left">
+                        <i class="bi bi-facebook grg-icon"></i>
+                        <i class="bi bi-youtube grg-icon"></i>
+                        <i class="bi bi-instagram grg-icon"></i>
+                        <i class="bi bi-whatsapp grg-icon"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h3 class="text-white pb-2 mb-3">INFORMATION</h3>
+                    <ul class="p-0">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h3 class="text-white pb-2 mb-3">USEFUL LINKS</h3>
+                    <ul class="p-0">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h3 class="text-white pb-2 mb-3">BUSINESS HOURS</h3>
+                    <p>Our support available to help you 24 hours a day, seven days a week.</p>
+                    <ul class="p-0">
+                        <li>Monday - Friday: 8am to 6pm</li>
+                        <li>Saturday: 9am to 5pm</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="m-0">
+            <div class="row align-items-center py-3">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <p>Designed by PPM Infotech. Powered byPPM.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <ul
+                        class="p-0 d-flex justify-content-lg-end justify-content-md-center justify-content-center gap-5 m-0">
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

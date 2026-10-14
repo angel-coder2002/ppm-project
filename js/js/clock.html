@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+        }
+
+        #Clock{
+            font-size: 70px;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body onload="time()">
+    <p id="Clock" style="position: absolute; left: 0;top: 10px;"></p>
+    <script>
+        function time()
+        {
+            var digital=new Date();
+            var hours=digital.getHours();
+            var minutes=digital.getMinutes();
+            var seconds=digital.getSeconds();
+            document.getElementById("Clock").innerHTML=hours+":"+minutes+":"+seconds;
+            setTimeout(time,1000);
+        }
+    </script>
+</body>
+</html>
